@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #191414;
+  color: aliceblue;
+  font-family: "montserrat";
+}
+
+header {
+    background-color: #191414;
+    color: #1DB954;
+    padding: 16px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav a, h1 {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.toplist {
+    width: 90%;
+    padding: 40px 0;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.toplist h2, .form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.position-img {
+    display: flex;
+}
+
+.position-img img {
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.position-img p {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.top50-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  list-style-type: none;
+}
+
+.top50-list li {
+  padding: 30px 10px;
+}
+
+.top50-list h4, p {
+  margin-left: 60px;
+}
+
+.top50-list h4 {
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.vtudo {
+  text-decoration: none;
+  border: solid 2px #1DB954;
+  padding: 10px 30px;
+  background-color: #1DB954;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form, .form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.form {
+  margin-top: 80px;
+}
+
+form input, form button {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 500px;
+}
+
+.form button {
+  background-color: #1DB954;
+  color: #191414;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
