@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soundfy: Seu app de música</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="./index.html"><h1>Soundfy</h1></a>
+      <nav>
+        <ul><li>
+          <a href="./index.html#top50">Top 50 Global</a></li>
+          <li><a href="./index.html#favs">Músicas curtidas</a></li>
+          <li><a href="#form">Música da sorte</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="form" id="form">
+      <h2>Descubra sua música da sorte</h2>
+      <form id="form" action="/submit" method="post">
+        <label for="ano1">Seu ano de nascimento:</label>
+        <input type="number" id="ano1" required>
+        <label for="ano2">Ano que assinou o Soundfy:</label>
+        <input type="number" id="ano2" required>
+
+          <p class="erro">O ano da assinatura precisa ser maior que o ano de nascimento</p>
+          <p class="certo">Você receberá sua música da sorte por e-mail!</p>
+
+
+        <button type="submit">Enviar</button>
+      </form>
+  </section>
+
+  <script src="./main.js"></script>
+</body>
+</html>
